@@ -1,0 +1,73 @@
+.settings-page-container {
+    display: flex;
+    min-height: 100vh;
+}
+.settings-content-container {
+    width: 70%;
+    padding: 1% 2%;
+}
+.settings-heading {
+    color: #7E22CE;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.profile-details-section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.profile-img {
+    width: 15%;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    width: 35%;
+}
+.label-text-input {
+    color: #3C3C3C;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.profile-input {
+    border: solid 1px #999999;
+    padding: 10px;
+    border-radius: 6px;
+}
+.subscription-banner {
+    background-image: linear-gradient(to right, #7E22CE, #460281);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px 30px;
+    margin-top: 30px;
+}
+.banner-text {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 13px;
+    margin: 0px;    
+}
+.span-banner-text {
+    font-weight: 500;
+    text-decoration: underline;
+}
+.upgrade-button {
+    color: #7E22CE;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 8px;
+}
+.cancel-subscription-text {
+    text-decoration: underline;
+    color: #FF274C;
+    font-size: 15px;
+    font-weight: 500;
+}

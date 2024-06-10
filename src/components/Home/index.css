@@ -1,0 +1,173 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+.home-content-cotainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.back-to-home-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: solid 0.75px #999999;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px 3px #231d1d2c;
+    margin-left: 15%;
+    padding: 6px 9px;
+}   
+.span-button-text {
+    font-weight: 400;
+    color: #3C3C3C;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.home-icon {
+    width: 14px;
+    height: 14px;
+}
+.create-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 60%;
+}
+.create-project-image {
+    width: 40%;
+    margin-top: 20px;
+}
+.create-project-heading {
+    color: #7E22CE;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+}
+.create-project-description {
+    color: #838383;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.create-project-button {
+    background-color: #211935;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.vector-icon {
+    width: 22px;
+}
+.span-new-project-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #F8F8F8;
+    margin-left: 10px;
+}
+.popup-content {
+    border-radius: 10px;
+}
+.popup-content-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-create-project-heading {
+    color: #211935;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 13px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+.popup-buttons-container {
+    align-self: flex-end;
+    padding: 13px;
+    padding-top: 5px;
+}
+.label-text {
+    color: #7a6c6c;
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-bar {
+    outline: none;
+    padding: 10px;
+    padding-left: 15px;
+    margin-top: 8px;
+    border-radius: 7px;
+    border: solid 1px #999999;
+    font-weight: 600;
+    color: rgb(127, 124, 124);
+}
+::placeholder {
+    color: #7f7c7ca1;
+}
+.cancel-button {
+    background-color: transparent;
+    color: #da3742;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    padding: 8px 12px;
+}
+.create-button {
+    background-color: #7E22CE;
+    color: #F8F8F8;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.projects-listing-page-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.listing-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.listing-page-heading {
+    margin: 0px;
+    color: #7E22CE;
+    font-size: 33px;
+}
+.projects-list {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.error-msg {
+    color: red;
+    font-size: 13px;
+    margin: 5px;
+    font-weight: 500;
+}

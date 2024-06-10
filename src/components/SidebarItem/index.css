@@ -1,0 +1,50 @@
+.side-bar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.side-bar-item1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.active-tab {
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+.deployment-class {
+    background-color: #46464614;
+    border-radius: 30px;
+}
+.nav-item {
+    text-decoration: none;
+    cursor: pointer;
+}
+.id-num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #b0afac;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  margin: 0px 10px;
+}
+
+.active-id {
+    background-color: #000000;
+    color: #ffffff;
+}
+.pricing-class {
+    border-bottom: solid 1px #b0afac;
+}
+.disabled-link {
+    pointer-events: none;
+}
+.tab-name {
+    font-weight: 500;
+    color: #49454F;
+    margin: 0px;
+} 

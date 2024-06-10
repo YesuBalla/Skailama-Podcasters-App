@@ -1,0 +1,46 @@
+.project-item-container {
+    display: flex;
+    align-items: center;
+    border: solid 1px #999999;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 3%;
+    box-shadow: 5px 7px 12px #888888;
+}
+.nav-link {
+    text-decoration: none;
+    width: 270px;
+    margin-bottom: 20px;
+    margin-right: 28px;
+}
+.profile-image {
+    background-color: #7E22CE;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 8%;
+}
+.first-letter {
+    color: #F8F8F8;
+    font-size: 50px;
+    font-weight: 600;
+}
+.item-heading {
+    margin: 0px;
+    color: #7E22CE;
+}
+.item-episodes {
+    margin: 0px;
+    color: #3C3C3C;
+    font-size: 13px;
+    font-weight: 500;
+}
+.item-time {
+    margin: 0px;
+    color: #969696;
+    margin-top: 13px;
+    font-size: 13px;
+}

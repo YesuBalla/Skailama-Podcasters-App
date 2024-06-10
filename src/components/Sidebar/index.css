@@ -1,0 +1,51 @@
+.sidebar-container {
+    background-color: #F3E8FF;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.side-bar-logo-container {
+    display: flex;
+    align-items: center;
+}
+.sidebar-items-list {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px;
+}
+.side-bar-app-logo {
+    width: 35px;
+    height: 35px;
+}
+.side-bar-logo-text {
+    font-size: 25px;
+    line-height: 47.56px;
+    color: #7E22CE;
+    margin: 0px;
+}
+.sidebar-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #49454F;
+}
+.side-link-item {
+    justify-self: flex-end;
+    text-decoration: none;
+}
+.side-bar-setting {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.setting-icon {
+    padding-left: 12px;
+}
